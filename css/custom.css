@@ -1,0 +1,80 @@
+/*************************************************************************
+ * Your custom CSS file
+ *************************************************************************/
+
+.custom-dropdown {
+  width: 240px;
+}
+
+.custom-textbox {
+  width: 240px;
+}
+
+#dialog-1,
+#dialog-2,
+#dialog-3,
+#dialog-4,
+#share-dialog {
+  display: none;
+}
+
+#share-url {
+  width: 100%;
+  -webkit-touch-callout: default !important;
+  -webkit-user-select: text !important;
+  -khtml-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
+
+#share-url-copy-prompt {
+  display: none;
+  color: #007bff;
+}
+
+/* Ensure bold text works properly */
+b, strong {
+  font-weight: bold !important;
+}
+
+.text b, .text strong {
+  font-weight: bold !important;
+}
+
+/* Category filters */
+.category-filters {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-btn {
+  padding: 8px 16px;
+  border: 2px solid #333;
+  background: transparent;
+  color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  background: #333;
+  color: white;
+}
+
+.category-btn.active {
+  background: #333;
+  color: white;
+}
+
+.publication-item {
+  transition: opacity 0.3s ease;
+}
+
+.publication-item.hidden {
+  display: none;
+}
