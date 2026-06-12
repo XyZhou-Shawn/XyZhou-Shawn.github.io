@@ -10,6 +10,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,400;8..30,500;8..30,600;8..30,700&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
   <style>
@@ -28,28 +29,69 @@
       <div class="content-table flex-column">
         <!-------------------------------------------------------------------------------------------->
         <!--Start Intro-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
+        <div class="flex-row profile-hero">
+          <div class="flex-item flex-column profile-photo-wrap">
             <!-- <img class="image" src="img/dummay-img.png"> -->
             <img class="image max-width-200" src="img/XiaoyuZhou2.png">
+            <div class="profile-photo-info text">
+              <div class="profile-info-item">
+                <span class="profile-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M3 6.5h18v11H3v-11z"></path><path d="m4 7 8 6 8-6"></path></svg>
+                </span>
+                <span>E-mail: xyrain.zhou@gmail.com</span>
+              </div>
+              <div class="profile-info-item">
+                <span class="profile-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="m3 8.5 9-4 9 4-9 4-9-4z"></path><path d="M7 11v4.5c2.8 2 7.2 2 10 0V11"></path></svg>
+                </span>
+                <span>Ph.D. student, <a target="_blank" href="https://www.northeastern.edu/">@Peking University</a></span>
+              </div>
+              <div class="profile-info-item">
+                <span class="profile-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"></path><path d="M12 11.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path></svg>
+                </span>
+                <span>Beijing, China</span>
+              </div>
+            </div>
           </div>
-          <div class="flex-item flex-column">
+          <div class="flex-item flex-column profile-summary">
             <h2>Xiaoyu Zhou</h2>
             <hr>
-            <p class="text text-large">
-              E-mail: xyrain.zhou@gmail.com<br>
-              Ph.D. student, 
-              <a target="_blank" href="https://www.northeastern.edu/">@Peking University</a><br>
-              Beijing, China<br>
-              <a href="./Xiaoyu Zhou_CV.pdf">CV</a><br>
-              <a href="xyrain.zhou@gmail.com">E-mail</a><br>
-              <a href="https://scholar.google.com/citations?user=WLE4TUoAAAAJ&hl=zh-CN">Google Scholar</a><br>
-              <a href="https://github.com/VDIGPKU">GitHub</a><br>
-              <a href="www.linkedin.com/in/xyrain-zhou">Linkedin</a><br>
+            <div class="profile-info-grid text text-large">
+              <a class="profile-info-item profile-info-link" href="./Xiaoyu Zhou_CV.pdf">
+                <span class="profile-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M7 3.5h7l3 3v14H7v-17z"></path><path d="M14 3.5v3h3"></path><path d="M9.5 12h5"></path><path d="M9.5 15h5"></path></svg>
+                </span>
+                <span>CV</span>
+              </a>
+              <a class="profile-info-item profile-info-link" href="xyrain.zhou@gmail.com">
+                <span class="profile-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M3 6.5h18v11H3v-11z"></path><path d="m4 7 8 6 8-6"></path></svg>
+                </span>
+                <span>E-mail</span>
+              </a>
+              <a class="profile-info-item profile-info-link" href="https://scholar.google.com/citations?user=WLE4TUoAAAAJ&hl=zh-CN">
+                <span class="profile-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M5 5.5h6.5A3.5 3.5 0 0 1 15 9v9.5H8.5A3.5 3.5 0 0 0 5 22V5.5z"></path><path d="M19 5.5h-4A3.5 3.5 0 0 0 11.5 9v9.5H15A4 4 0 0 1 19 22V5.5z"></path></svg>
+                </span>
+                <span>Google Scholar</span>
+              </a>
+              <a class="profile-info-item profile-info-link" href="https://github.com/VDIGPKU">
+                <span class="profile-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M8.5 9 5 12l3.5 3"></path><path d="m15.5 9 3.5 3-3.5 3"></path><path d="m13.5 7-3 10"></path></svg>
+                </span>
+                <span>GitHub</span>
+              </a>
+              <a class="profile-info-item profile-info-link" href="www.linkedin.com/in/xyrain-zhou">
+                <span class="profile-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M5 9.5h3v9H5v-9z"></path><path d="M5 5.5h3v2H5v-2z"></path><path d="M11 9.5h3v1.2c.6-.9 1.5-1.4 2.7-1.4 2 0 3.3 1.3 3.3 4v5.2h-3v-4.8c0-1.2-.5-1.8-1.4-1.8s-1.6.7-1.6 1.9v4.7h-3v-9z"></path></svg>
+                </span>
+                <span>Linkedin</span>
+              </a>
               <!-- -Applying for MS/PhD!- -->
-            </p>
+            </div>
           </div>
-          <div class="flex-item flex-item-stretch flex-column">
+          <div class="flex-item flex-item-stretch flex-column profile-news-card">
             <h3>Latest News</h3>
             <ul>
               <li>[Feb 02, 2026] one paper accepted to TPAMI'25</li>
@@ -74,7 +116,7 @@
             <hr>
             <p class="text text-large">
               I am currently a 3rd year Ph.D. candidate at <a href="https://www.icst.pku.edu.cn/index.htm">Wangxuan Institute of Computer Technology, <a href="https://english.pku.edu.cn/">Peking University</a>, supervised by <a href="https://www.icst.pku.edu.cn/xztd/1298696.htm">Prof. Yongtao Wang</a>.
-              My research interests center on 3D vision, spatial intelligence, and world model, with a focus on building a universal, real-world oriented generative 3D physical simulator.
+              My research focuses on 3D vision, spatial intelligence, and world model, with an emphasis on learning expressive 3D/4D representations for scene reconstruction, controllable generation, simulation, and open-ended understanding. I am particularly interested in geometry-grounded generative and reconstructive models that bridge visual synthesis and the physical world, aiming to build realistic, interactive, and self-evolving 4D intelligent systems.
               <!-- I previously worked as a research assistant in <a target="_blank" href="http://www.cad.zju.edu.cn/english.html"> State Key Lab of CAD & CG, Zhejiang University</a>  -->
               <!-- supervised by <a href="http://www.cad.zju.edu.cn/home/xzhou/">Prof. Xiaowei Zhou</a>. -->
               <!-- Before that, I was a research intern at 3D&AR Group of <a target="_blank" href="https://www.sensetime.com/">SenseTime</a> supervised by <a href="https://jiamingsun.ml/">Jiaming Sun</a>. -->
@@ -144,8 +186,7 @@
           <div class="flex-item flex-item-stretch-4 flex-column">
             <p class="text">
               <b>	SAMPLING: Scene-adaptive Hierarchical Multiplane Images Representation for Novel View Synthesis from a Single Image</b><br>
-              <b>Xiaoyu Zhou</b>, Zhiwei Lin, Xiaojun Shan, Yongtao Wang, Deqing Sun, Ming-Hsuan Yang.
-              (* equal contribution) <br>
+              <b>Xiaoyu Zhou</b>, Zhiwei Lin, Xiaojun Shan, Yongtao Wang, Deqing Sun, Ming-Hsuan Yang. <br>
               <i>International Conference on Computer Vision (ICCV), 2023.</i> <br>
               [<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Zhou_SAMPLING_Scene-adaptive_Hierarchical_Multiplane_Images_Representation_for_Novel_View_Synthesis_ICCV_2023_paper.html">PDF</a>]
             </p>
@@ -159,8 +200,8 @@
           <div class="flex-item flex-item-stretch-4 flex-column">
             <p class="text">
               <b>Drivinggaussian: Composite gaussian splatting for surrounding dynamic autonomous driving scenes</b><br>
-              <b>Xiaoyu Zhou</b>, Zhiwei Lin, Xiaojun Shan, Yongtao Wang, Deqing Sun^, Ming-Hsuan Yang^.
-              (^ equal advising)<br>
+              <b>Xiaoyu Zhou</b>, Zhiwei Lin, Xiaojun Shan, Yongtao Wang, Deqing Sun*, Ming-Hsuan Yang*.
+              (* equal advising)<br>
               <i>Computer Vision and Pattern Recognition Conference, 2024.</i> <br>
               [<a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_DrivingGaussian_Composite_Gaussian_Splatting_for_Surrounding_Dynamic_Autonomous_Driving_Scenes_CVPR_2024_paper.html">PDF</a>][<a href="https://pkuvdig.github.io/DrivingGaussian/">Website</a>][<a href="https://pkuvdig.github.io/DrivingGaussian/">Code</a>]
             </p>
@@ -307,6 +348,20 @@
             </p>
           </div>
         </div>
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img width="130" height="130" src="./img/bytedance-color.png">
+            <!-- <img class="image max-width-400" src="img/dummay-img.png"> -->
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <b>Bytedance, Data</b><br>
+              Research Scientist Intern<br>
+              Feb. 2026 - Jun. 2026<br>
+              Work with Yangjin, Zhongyu Xia<br>
+            </p>
+          </div>
+        </div>
         <!--End Experience-->
         <!-------------------------------------------------------------------------------------------->
         <!--Talks&Presentations-->
@@ -335,11 +390,11 @@
                 @ Nationwide
               </li>
               <li>
-                [10/2023] National Scholarship, First Prize
+                [12/2023] Alibaba Taotian Scholarship
                 @ Nationwide
               </li>
               <li>
-                [11/2025] Taotian Scholarship (1 out of 15 AI researchers nationwide)
+                [10/2023] National Scholarship, First Prize
                 @ Nationwide
               </li>
               <li>
